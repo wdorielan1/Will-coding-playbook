@@ -12,7 +12,21 @@ New saves (Instagram screenshots, GitHub links) that haven't been sorted yet. No
 
 ## Unsorted
 
-_Empty._
+### thinking-orbs: https://github.com/Jakubantalik/thinking-orbs (MIT)
+
+Animated "AI is working" loading indicators for chat and agent screens. Needs a topic: none of the six covers loading or AI-status screens. Suggested: a new `references/ai-and-loading-states.md`.
+
+Rules:
+- Match the loading animation to what is happening (searching, working, listening…) instead of one generic spinner for every wait. Name the specific action in its accessible label, e.g. "Analysing repository…".
+- Build two sizes on purpose: about 20px next to text and about 64px as a chat avatar. Tune each one; don't scale one down.
+- Keep the indicator one color and follow the theme: light on dark backgrounds, dark on light.
+- With reduced motion on, show one still frame instead of the animation or nothing.
+
+Tool: `thinking-orbs` (React 18+), `<ThinkingOrb state="searching" size={64} />`
+
+Dropped as library internals the package already handles: pausing when offscreen, canvas-only rendering, theme detection, speed and pause props.
+
+Conflicts: none. Duplicates: none.
 
 ## Conflicts — pick one
 
