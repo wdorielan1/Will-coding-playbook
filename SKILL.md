@@ -1,6 +1,6 @@
 ---
 name: will-ui-playbook
-description: Will's personal UI and UX rules, applied to every app Will builds. Use whenever designing, building, reviewing or restyling any user-facing screen, page or component — onboarding, signup and forms, dashboards, mobile layouts, typography and color, landing pages, AI and agent loading states. Read the core rules below first, then the one or two reference files that match the screen.
+description: Will's personal UI and UX rules, applied to every app Will builds. Use whenever designing, building, reviewing or restyling any user-facing screen, page or component — onboarding, signup and forms, dashboards, mobile layouts, typography and color, landing pages, AI and agent loading states, UI sounds. Read the core rules below first, then the one or two reference files that match the screen.
 ---
 
 # Will's UI/UX Playbook
@@ -28,6 +28,7 @@ Read the file that matches the screen's main job. Read a second one when the scr
 | Type scale, fonts, color palette, contrast, dark mode | `references/typography-color.md` |
 | Marketing pages: hero, value proposition, social proof, pricing, calls to action | `references/landing-pages.md` |
 | AI or agent screens: loading indicators, "thinking" and status states, chat waiting states | `references/ai-and-loading-states.md` |
+| Sound in the interface: taps, clicks, toggles, confirm and error cues, notifications, typing | `references/ui-sound.md` |
 
 ## Do not read while building
 
