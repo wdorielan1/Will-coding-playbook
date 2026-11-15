@@ -27,6 +27,7 @@ Read the file that matches the screen's main job. Read a second one when the scr
 | Phone-sized layout: navigation, thumb reach, touch targets, spacing, responsive behavior | `references/mobile-layout.md` |
 | Type scale, fonts, color palette, contrast, dark mode | `references/typography-color.md` |
 | Marketing pages: hero, value proposition, social proof, pricing, calls to action | `references/landing-pages.md` |
+| AI or agent screens: loading indicators, "thinking" and status states, chat waiting states | `references/ai-and-loading-states.md` |
 
 ## Do not read while building
 
