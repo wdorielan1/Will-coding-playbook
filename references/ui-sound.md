@@ -15,3 +15,5 @@ Read for: sounds inside an app interface. Taps, clicks, toggles, confirm and err
 ## Tool
 
 `earshot` (Python; needs ffmpeg and about 1.1 GB of models). Built for sound on code-made films, but it can render UI sounds offline (`earshot sfx render ui_pop/soft -o pop.wav`) and check them for clicks, clipping and cut tails (`earshot sfx check pop.wav`). Source: https://github.com/Leonxlnx/earshot (MIT).
+
+Before shipping its sounds in an app: it ships no audio files, only code that renders each sound to a WAV by id (e.g. `earshot sfx render toggle/on -o toggle-on.wav`). The code is MIT, but nothing states the terms for the rendered WAVs, so check with the author for a paid app. It is built for film soundtracks, so listen on a phone speaker first.
