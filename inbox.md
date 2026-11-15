@@ -7,7 +7,7 @@ New saves (Instagram screenshots, GitHub links) that haven't been sorted yet. No
 1. Turn it into one short, clear rule in plain text. Keep it only if it would change how a screen gets built.
 2. Drop it if it is obvious, generic, or already covered by an existing rule.
 3. If it contradicts an existing rule, do not file it. List both rules under **Conflicts** and wait for Will to pick one.
-4. File it in the matching `references/` file. Use `SKILL.md` core rules only if the rule holds on every screen. If no topic fits, leave it under **Unsorted** with a suggested new topic.
+4. File it in the matching `references/` file. Use `SKILL.md` core rules only if the rule holds on every screen. If no topic fits, create a new file in `references/` named for the topic and add its row to the table in `SKILL.md`. Don't wait to ask.
 5. Remove the entry from **Unsorted** once it is filed, dropped, or moved to Conflicts.
 
 ## Unsorted
