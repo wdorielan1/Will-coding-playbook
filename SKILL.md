@@ -1,6 +1,6 @@
 ---
 name: will-ui-playbook
-description: Will's personal UI and UX rules, applied to every app Will builds. Use whenever designing, building, reviewing or restyling any user-facing screen, page or component — onboarding, signup and forms, dashboards, mobile layouts, typography and color, landing pages. Read the core rules below first, then the one or two reference files that match the screen.
+description: Will's personal UI and UX rules, applied to every app Will builds. Use whenever designing, building, reviewing or restyling any user-facing screen, page or component — onboarding, signup and forms, dashboards, mobile layouts, typography and color, landing pages. Read the core rules and the rules list in inbox.md first.
 ---
 
 # Will's UI/UX Playbook
@@ -15,9 +15,13 @@ These apply to every screen, whatever the topic.
 
 _None chosen yet. A rule belongs here only if it changes how every screen is built. Anything specific to one kind of screen goes in its reference file instead._
 
-## Which reference to read
+## Rules list
 
-Read the file that matches the screen's main job. Read a second one when the screen spans topics (a mobile signup form: `forms-and-signup.md` + `mobile-layout.md`).
+For now every rule is in one list: `inbox.md`. Read all of it before building any screen. Skip anything under its Conflicts heading until Will has picked one.
+
+## Which reference to read (not in use yet)
+
+Skip this table for now. The topic files are empty until the list in `inbox.md` is sorted into them. Once they are filled, read the file that matches the screen's main job. Read a second one when the screen spans topics (a mobile signup form: `forms-and-signup.md` + `mobile-layout.md`).
 
 | Building… | Read |
 |---|---|
@@ -28,7 +32,3 @@ Read the file that matches the screen's main job. Read a second one when the scr
 | Type scale, fonts, color palette, contrast, dark mode | `references/typography-color.md` |
 | Marketing pages: hero, value proposition, social proof, pricing, calls to action | `references/landing-pages.md` |
 | AI or agent screens: loading indicators, "thinking" and status states, chat waiting states | `references/ai-and-loading-states.md` |
-
-## Do not read while building
-
-`inbox.md` holds saves that haven't been sorted. Nothing in it is a rule yet, so never apply it to a screen. Open it only when asked to sort new saves. The sorting steps are at the top of that file.

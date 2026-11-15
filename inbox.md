@@ -1,18 +1,21 @@
-# Inbox
+# Inbox: the one list
 
-New saves (Instagram screenshots, GitHub links) that haven't been sorted yet. Nothing here is a rule, and none of it applies when building a screen.
+For now every rule goes in this one list, in the order saved, with no topic sorting. The topic files in `references/` stay empty until this list is sorted into them later.
 
-## How to sort an entry
+## How a save gets added
 
 1. Turn it into one short, clear rule in plain text. Keep it only if it would change how a screen gets built.
-2. Drop it if it is obvious, generic, or already covered by an existing rule.
-3. If it contradicts an existing rule, do not file it. List both rules under **Conflicts** and wait for Will to pick one.
-4. File it in the matching `references/` file. Use `SKILL.md` core rules only if the rule holds on every screen.
-5. Remove the entry from **Unsorted** once it is filed, dropped, or moved to Conflicts.
+2. Drop it if it is obvious, generic, or already covered by a rule in the list.
+3. If it contradicts a rule in the list, do not add it. List both under **Conflicts** and wait for Will to pick one.
+4. Add it to **Rules** with its source name in parentheses.
 
-## Unsorted
+## Rules
 
-_Empty._
+- Match the loading animation to what is happening (searching, working, listening…) instead of one generic spinner for every wait. Name the specific action in its accessible label, e.g. "Analysing repository…". (thinking-orbs)
+- Build two sizes on purpose: about 20px next to text and about 64px as a chat avatar. Tune each one; don't scale one down. (thinking-orbs)
+- Keep the indicator one color and follow the theme: light on dark backgrounds, dark on light. (thinking-orbs)
+- With reduced motion on, show one still frame instead of the animation or nothing. (thinking-orbs)
+- For AI and agent loading indicators, the `thinking-orbs` package (React 18+) does all of the above: `<ThinkingOrb state="searching" size={64} />`. Source: https://github.com/Jakubantalik/thinking-orbs (MIT). (thinking-orbs)
 
 ## Conflicts — pick one
 
@@ -22,7 +25,7 @@ Format for each conflict:
 
 ```
 - Topic: <what the rules disagree about>
-  - A (filed in references/<file>.md): <rule>
+  - A (in the list): <rule>
   - B (new, from <source>): <rule>
   - Pick: <Will fills in A, B, or a rewrite>
 ```
